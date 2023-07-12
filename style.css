@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: burlywood;
+    
+}
+.rps{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px;
+
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.scores{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.outcomes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.player,
+.comp{
+    max-width: 50px;
+}
